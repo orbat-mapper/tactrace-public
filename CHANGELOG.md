@@ -3,6 +3,16 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.9.1 - 2026-09-26
+
+### Fixes
+
+- Curved attack arrows now join the arrowhead cleanly. Previously the shaft could meet the head with a visible kink or gap.
+
+### Under the hood
+
+- control-measures updated to 0.29.1.
+
 ## 1.9.0 - 2026-09-26
 
 ### New
