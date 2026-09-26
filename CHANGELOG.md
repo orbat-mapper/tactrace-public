@@ -3,6 +3,21 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.9.0 - 2026-09-26
+
+### New
+
+- **Variable-width arrows**: turn on **Width grips** in the **Details Panel** or the mobile toolbar to drag an arrow's width at each vertex. Alt+click a grip to reset it, or use **Reset arrow widths** to reset them all.
+
+### Improvements
+
+- Measures that support different smoothing styles now offer **Rounded** and **Curve** toggles in place of the single **Smooth** toggle.
+- **About TacTrace** now links to the release notes, a page for reporting bugs and requesting features, and a contact email.
+
+### Under the hood
+
+- Dependencies updated, including control-measures 0.29.0 and tactical-draw 0.11.0.
+
 ## 1.8.0 - 2026-09-26
 
 ### New
