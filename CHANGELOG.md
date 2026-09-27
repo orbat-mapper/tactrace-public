@@ -3,6 +3,26 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.10.0 - 2026-09-27
+
+### New
+
+- **Drag between tabs and windows**: drag an Item or Layer row from the **Layers Panel** into another TacTrace tab or window to drop a copy there. Items dropped on the map land centered on the drop point in the Active Layer; dropped on a Layer row they go into that Layer at their own location. A dropped Layer lands on top as the Active Layer. The original stays where it was, and the drop is one undo step. Like Paste, this works between tabs and windows of the same browser.
+- **New control measures**: the Interdict mission task, drawn from a single centre point; the Bomb Area, Smoke, and Series or Group of Targets fire areas; the Unexploded Explosive Ordnance (UXO) Area; Ford Easy and Ford Difficult, drawn with three points where the third sets the width; and the Lane, Ferry and Raft Site protection lines.
+
+### Improvements
+
+- The desktop toolbar fits narrow map areas better. It stays centred while there is room and shifts over when there isn't, and if it still doesn't fit, **Measurement**, the laser pointer and orbit demo, and **Library** move into a **More tools** menu, as on phones. Previously the toolbar scrolled sideways as soon as the map area narrowed.
+- With the **Details Panel** docked on the right, the map controls (compass, basemaps, place search and terrain) now stack beside the panel's edge. Previously they spread along the top of the map, where they could overlap the toolbar.
+
+### Fixes
+
+- The **Measurement** button in the desktop toolbar now shows as pressed while measuring.
+
+### Under the hood
+
+- Dependencies updated, including control-measures 0.30.0.
+
 ## 1.9.1 - 2026-09-26
 
 ### Fixes
