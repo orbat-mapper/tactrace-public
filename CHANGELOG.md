@@ -3,6 +3,17 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.11.0 - 2026-09-28
+
+### New
+
+- **Replace icon**: the **Details Panel** and the mobile **Symbology** popover have a **Replace icon** button beside **Text amplifiers**. It opens the symbol library seeded with the selected symbol, and **Place** becomes **Replace**, swapping in the icon you pick. Picking an icon from another symbol set drops the modifiers and amplifiers that set can't show.
+
+### Improvements
+
+- **Favorites** in the symbol library now show your own favorites, one section per group, in place of the placeholder My Symbols collection. Favorite symbols select into the **Selected symbol** panel like Standard Symbols, and favorite control measures arm a draw like the **Control Measures** cards.
+- The symbol library works better on phones. Cards are more compact (4, 3 or 2 columns for small, medium and large), and the selected-symbol panel is a resizable bottom sheet that opens as a one-row summary with **Place**. The jump buttons moved into a menu beside the symbol-set dropdown, so the search field keeps its width. Previously the cards fell to a single column and the panel could cover up to 60% of the screen.
+
 ## 1.10.0 - 2026-09-27
 
 ### New
