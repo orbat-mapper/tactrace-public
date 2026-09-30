@@ -3,6 +3,14 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.12.1 - 2026-09-30
+
+### Improvements
+
+- ORBAT Mapper scenario import can bring in unit range rings: turn on **Include unit range rings** to add each unit's rings as circles, styled as they are in ORBAT Mapper.
+- Pins scale better with the map. **Pin settings** has two new switches, **Shrink when zoomed out** and **Perspective sizing**, with sliders to tune them and a readout of the pin size at the current zoom. Both are on by default and never make a pin larger than its chosen symbol size.
+- Orbit demo resumes turning sooner after you zoom in or out.
+
 ## 1.12.0 - 2026-09-30
 
 ### New
