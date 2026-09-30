@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.12.0 - 2026-09-30
+
+### New
+
+- **ORBAT Mapper scenario import**: open, drop or paste an ORBAT Mapper scenario (format 3.0.0 to 3.4.0) to bring it in as editable Layers. Pick a snapshot time or event, choose which sides and content to include, preview what will be imported, and place it on the **Active Page**, a **New Page** or a **New Map**. On the start page, **Import ORBAT Mapper scenario** opens it as a new Map, and you can also drop or paste a scenario there.
+
 ## 1.11.0 - 2026-09-28
 
 ### New
