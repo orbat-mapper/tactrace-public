@@ -3,6 +3,28 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.13.0 - 2026-10-03
+
+### New
+
+- **MilX import**: open or drop map.army MilX layer files (`.milxly` and `.milxlyz`) through **Import Data**, onto the map, or on the start page. Tactical symbols come in with their symbology, and free-format lines, areas, Bézier curves, rectangles, circles and text labels become editable Generic Graphics with their colors, fill and designation. A symbol size slider with a ground/screen toggle sets how big imported symbols are, and graphics TacTrace has no equivalent for are listed instead of being silently dropped.
+
+### Improvements
+
+- **Bézier smoothing** for Generic Graphic lines and areas and for the Classic Arrow shaft: alongside **Curve**, the **Smooth** options now offer **Bézier**, which shapes the line from its points as a control frame instead of passing through every point.
+- Generic Graphics (line, area, rectangle, circle, sector) and the Classic Arrow can carry a designation (T) label. Areas center it inside the shape; lines and arrows place it above the middle, reading along the line. Drag it to move it, and use the label size control to resize it.
+- Classic Arrow heads keep the same size whatever the length of the arrow. Drag the new handle on the head's corner to change its length and width, or Alt+click it to restore the default size.
+- When drawing a **Classic Arrow**, the first click now places the arrow tip, as it does for the other arrows. Classic Arrows in existing Maps are updated when opened and keep pointing the same way. Maps saved by this version can't be opened in older versions of TacTrace.
+- Right-to-left map labels (such as Arabic and Hebrew) are now drawn by the map itself instead of a separate plugin, so nothing extra is downloaded for them. Labels in complex scripts such as Devanagari and Khmer are now also drawn correctly.
+- Opening Maps and importing files with many tactical graphics is faster.
+- The **Annotations** menu now offers **Arrow**, which draws a Classic Arrow. While drawing a Classic Arrow or Block Arrow, the **Details Panel** shows **Arrowhead style**, so you can pick the head before placing any points.
+- The **Smooth** style (**Curve**, **Bézier** or **Rounded**) and the **Arrowhead style** you last chose carry over to the next graphic you draw, whether you chose them while drawing or while editing an existing graphic. A graphic that doesn't offer the remembered style starts with its own default instead.
+- Turning on terrain with the map's terrain button tilts a top-down view so the relief is visible, and turning it off levels the camera again.
+
+### Fixes
+
+- The orbit demo keeps the camera at a steady height over hilly terrain. Previously it rose and fell with the ground under the map center.
+
 ## 1.12.1 - 2026-09-30
 
 ### Improvements
