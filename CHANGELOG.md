@@ -3,6 +3,25 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.14.0 - 2026-10-06
+
+### New
+
+- **Offline terrain**: 3D terrain and hillshading can now read elevation data from an elevation archive, a PMTiles archive of elevation tiles such as an extract of Mapterhorn. Choose **Terrain → Open elevation archive…**, drop the archive on the map and choose **Use for terrain**, or add an archive's address in **PMTiles basemaps…** with **Elevation archive** checked. The archive replaces the online elevation data while it is in use, and supported browsers reopen it next time.
+
+### Improvements
+
+- The single-file download no longer reads elevation data from the internet by itself. Its terrain button offers a choice between online elevation data and an elevation archive, and remembers it.
+- While drawing a control measure, the **Details Panel** now also offers **Filled**, **Echelon**, **Mine type** and **Open** where the measure has them, so you can set them before placing any points.
+- The **Filled**, **Echelon** and **Mine type** you last chose carry over to the next control measure you draw, like the **Smooth** and **Arrowhead style** choices. A measure that doesn't offer the remembered choice starts with its own default instead.
+- Picking a different control measure while drawing now switches to it straight away, discarding the unfinished one. Previously the pick was ignored until you finished or cancelled the drawing.
+- ORBAT Mapper scenario import accepts scenarios from the current ORBAT Mapper (format 3.5.0 and 3.6.0). Scenarios from an even newer version are still imported, with a warning that some content may be missing or imported incorrectly.
+- Imported range rings respect ORBAT Mapper's range ring visibility: rings in a hidden range ring group, and rings hidden with ORBAT Mapper's options to hide all or ungrouped range rings, come in hidden.
+
+### Fixes
+
+- Classic Arrows in ORBAT Mapper scenarios saved before format 3.5.0 now import pointing the right way. Previously they came in back to front.
+
 ## 1.13.0 - 2026-10-03
 
 ### New
