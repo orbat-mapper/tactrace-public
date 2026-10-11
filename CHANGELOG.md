@@ -3,6 +3,27 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.15.0 - 2026-10-11
+
+### New
+
+- **Hellfire**: a presentation tool (hotkey **F**) next to the laser pointer and the Orbit demo. Click the map to fire a Hellfire missile, or Shift+click while orbiting. Choose what happens to Icon-based Symbols caught in the blast under **Settings → Hellfire → On impact**: nothing, hide them, delete them, or set their status to destroyed. The impact is one step you can undo, and Locked symbols are spared.
+
+### Improvements
+
+- Rows in the **Layers** panel now show a preview of each item: Icon-based Symbols show their symbol, and control measures show a small drawing of their kind.
+- ORBAT Mapper scenario import accepts scenarios in format 3.7.0 without the newer-format warning, and brings in their point control measures, such as checkpoints, as Icon-based Symbols with their size, rotation and text.
+- Imported units are hidden or locked only when they or their side group are, as in current ORBAT Mapper. Previously a hidden or locked unit also hid or locked its subordinates.
+- The Orbit demo shows a short hint when it starts, and the keyboard shortcuts list includes Shift+click to fire Hellfire.
+
+### Fixes
+
+- Control measures imported from ORBAT Mapper with a size in meters now keep that size. Previously they came in sized in pixels instead.
+
+### Under the hood
+
+- Updated dependencies, including MapLibre GL JS 6.13.
+
 ## 1.14.0 - 2026-10-06
 
 ### New
