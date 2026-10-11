@@ -3,6 +3,17 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.16.0 - 2026-10-11
+
+### New
+
+- **Viewshed** (experimental): a terrain tool (hotkey **W**, in the **Measurement** menu) that shows what can be seen from a point. Click the map to place an observer, and the ground visible from there within a radius is shaded and outlined. Drag the observer to move it, and choose **Standard**, **Fine** or **Max** detail; the deck shows the resulting cell size. It needs elevation data, and nothing is saved to the Map File.
+- **Elevation profile** (experimental): show the ground elevation along a kept distance measurement or a line control measure as a chart, with a marker on the line that follows the chart. Turn it on with **Elevation profile** in the **Details Panel** or in the measurement deck. Nothing is saved to the Map File.
+
+### Fixes
+
+- PMTiles basemaps and elevation archives work again in the single-file download. Previously they never rendered when the file was opened from disk.
+
 ## 1.15.0 - 2026-10-11
 
 ### New
