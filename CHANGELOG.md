@@ -3,6 +3,20 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.17.0 - 2026-10-12
+
+### New
+
+- **Range fan** (experimental): a selected Sector offers **Range fan** in the **Details Panel**'s **Terrain** section. It shows the viewshed from the Sector's anchor, cut to its arc and its inner and outer ranges, so you see only the ground a weapon or sensor can actually see within its sector of fire. Terrain outside the fan still blocks the view into it. The fan follows the Sector while you edit it and closes when the Sector is deleted.
+- **Masking height** in the **Viewshed**: switch the deck from the visible ground to how high a target must rise to be seen, in bands from 0 to 500 m and above, with a legend above the deck.
+
+### Improvements
+
+- The **Viewshed** reaches up to 200 km, with detail levels from **Draft** to **Extreme**. A spinner shows while it computes, and the deck no longer shifts as results arrive.
+- The **Viewshed** observer can stand as a pin at eye height, which is easier to see on a tilted map.
+- Dragging the **Viewshed** observer over 3D terrain is smoother, and the shading keeps up with the pointer. The outline is drawn once you let go.
+- The **Elevation profile** of a control measure now follows the line while you edit it. Previously it updated only once the edit ended.
+
 ## 1.16.0 - 2026-10-11
 
 ### New
