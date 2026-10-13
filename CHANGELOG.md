@@ -3,6 +3,16 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.17.1 - 2026-10-13
+
+### Improvements
+
+- **Viewshed** (experimental): place several observers at once, one per click. Their coverage is combined so you can see which ground is seen by many, few or none, or you can show each one separately.
+- **Dead ground** in the **Viewshed** highlights in red the ground no observer can see.
+- The **Viewshed** deck is more compact: its settings now open from a single button.
+- Several Sectors can show their **Range fan** (experimental) at the same time.
+- Sectors can be rotated with a handle, and open toward the cursor as you draw them.
+
 ## 1.17.0 - 2026-10-12
 
 ### New
