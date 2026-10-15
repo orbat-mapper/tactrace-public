@@ -3,6 +3,19 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.17.3 - 2026-10-15
+
+### Improvements
+
+- The **Measurement** button in the toolbar is now a split button, like **Annotations** and **Presentation tools**: the main half starts the measurement you used last (**Distance**, **Area** or **Viewshed**), and the arrow opens the menu. The **R** hotkey also starts the last-used measurement, **Distance** by default. Previously the button only opened the menu, and **R** started nothing.
+- The **Viewshed** observer height can be **Above ground** or **Above sea level**, so a drone or aircraft keeps its altitude wherever you move it. Its pin stands at that altitude and reads e.g. "600 m ASL".
+- **Measure the range from the eye** in the **Viewshed** settings treats the radius as slant range, the way a sensor or radio reaches. Ground beyond that range still blocks the view behind it. A **Range fan**'s minimum range is still measured along the ground.
+
+### Fixes
+
+- When several control measures are selected, the selection box now follows them as you pan the map. Previously it stayed where it was on screen unless the selection also included a unit ([#1](https://github.com/orbat-mapper/tactrace-public/issues/1)).
+- Pressing Escape with several items selected now clears the selection. Previously the selection box disappeared but the **Details Panel** stayed open, still showing the items as selected.
+
 ## 1.17.2 - 2026-10-15
 
 ### Improvements
