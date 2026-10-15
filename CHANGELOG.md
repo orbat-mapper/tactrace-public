@@ -3,6 +3,18 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.17.2 - 2026-10-15
+
+### Improvements
+
+- **Hellfire** is now off by default. Turn it on with **Settings → Advanced → Enable Hellfire**, where its **On impact** choice now lives too. Until then it is left out of the presentation tools, the Orbit demo hint and the keyboard shortcuts list.
+- MilX symbols that TacTrace has no icon for now import as a bare frame. Previously they were skipped.
+- TacTrace starts faster: the **Viewshed** loads the first time you use it.
+
+### Under the hood
+
+- Updated dependencies, including MapLibre GL JS 6.14.
+
 ## 1.17.1 - 2026-10-13
 
 ### Improvements
