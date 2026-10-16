@@ -3,6 +3,15 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.17.4 - 2026-10-16
+
+### Improvements
+
+- The **Viewshed** observer can snap to a summit or a pit while you drag it. Turn it on with the **Snap to the highest ground** or **Snap to the lowest ground** button on the **Viewshed** deck, and press it again to turn it off. Or hold Alt during a drag to snap that drag to the highest ground (Alt+Shift for the lowest). **Snap area** in the **Viewshed** settings sets how far around the pointer it searches, from 8 to 96 screen pixels. A ring shows the ground searched, and the ground height shows under the observer while you drag.
+- The **Viewshed** settings are more compact: observer height, target height and reach each fit on one row, and detail, snap area and the pin are folded away under a disclosure.
+- The **Viewshed** settings button shows each value with an icon, names it on hover, and includes the cell size the viewshed was computed at. Clicking the cell size opens the settings at the detail level.
+- The **Terrain** toggle is now on the map on phones and small screens too.
+
 ## 1.17.3 - 2026-10-15
 
 ### Improvements
