@@ -3,6 +3,29 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.18.0 - 2026-10-18
+
+### New
+
+- **Slope mobility**: shade the ground inside an area GO, SLOW-GO or NO-GO by slope. Turn it on in the **Terrain** section of the **Details Panel** and pick a **Wheeled**, **Tracked** or **Dismounted** profile, or set your own thresholds. The panel shows each class's share of the area. It considers slope only, not vegetation, soil, water or built-up areas.
+- **Landing sites**: shade the ground inside an area where a helicopter can land, given a landing-point diameter and maximum slope (**Light**, **Medium** or **Heavy** profiles, or your own). The five largest sites are numbered on the map and listed in the panel; click one to centre on it. It sees slope only, not trees, wires or obstacles, so check the sites on imagery.
+- **Analysis** tab: one card per item with its running terrain analyses, where you can hide, change or close each one and add more with **+**. **Profile comparison** overlays two or more elevation profiles, and **Combined coverage** shows the ground any viewshed sees. Open it from the measurement menu or with **Open in Analysis** in the **Details Panel**; on a phone it opens as a bottom sheet.
+
+### Improvements
+
+- Every **Viewshed** now runs on an item: click a symbol with the **Viewshed** tool, or drag on open ground to draw a circle with a viewshed. Circles can have a viewshed like Sectors, and a Sector's **Range fan** is now called **Viewshed**. Standalone viewsheds and **Keep as Item** are gone.
+- Viewshed settings now live on the item's card in the **Analysis** tab, and the **Viewshed** deck is replaced by a bar at the foot of the map showing the selected item's terrain analyses. **Viewshed snap area** moved to **Settings → Terrain**.
+- Dragging a symbol, Sector or circle with a viewshed redraws it as it moves and snaps to the highest or lowest ground (hold Alt, or Alt+Shift for the lowest).
+- Several elevation profiles can be open at once, any terrain analysis can be hidden without closing it, and undoing an item's delete restores its analyses.
+- Analysis cards show the cell size and warn when it is too coarse.
+- On a phone, the **Terrain** section shows in an item's details, and the analysis bar scrolls sideways.
+- The **Graphics** tab has a **Generic** filter for lines, arrows, rectangles, circles, Sectors and the like.
+
+### Fixes
+
+- Zooming to a circle now shows all of it, and zooming to a symbol with a viewshed frames the whole viewshed.
+- On a touch screen, dragging a small symbol now moves it instead of scaling it.
+
 ## 1.17.4 - 2026-10-16
 
 ### Improvements
