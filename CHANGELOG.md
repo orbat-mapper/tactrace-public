@@ -3,6 +3,19 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.19.0 - 2026-10-19
+
+### New
+
+- **Landforms**: shade the ground inside an area by its form: high ground (peaks, ridges, spurs) in brown, saddles in magenta, low ground (hollows, valleys, pits) in blue. Add it from the **Terrain** section of the **Details Panel** or the **Analysis** tab. **Lookup distance** sets the scale, from knolls to hills.
+
+### Improvements
+
+- Turn off **Smooth analysis edges** under **Settings → Terrain** to draw terrain analyses as crisp cells when zoomed in.
+- Terrain analysis settings have help buttons explaining each setting.
+- Observation post symbols can now take a **Fill color**.
+- The **Viewshed** settings show **Detail** and the observer pin directly, no longer folded away.
+
 ## 1.18.0 - 2026-10-18
 
 ### New
