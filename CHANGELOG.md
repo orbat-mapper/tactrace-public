@@ -3,6 +3,18 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.19.1 - 2026-10-19
+
+### Improvements
+
+- Terrain analyses are now saved with the map. Viewsheds, elevation profiles, slope mobility, landing sites and landforms, along with their settings, come back when you reopen the map. They are also copied when you paste or duplicate an item, layer or page. Starting, changing and closing an analysis can be undone. Showing or hiding one doesn't count as a change to the map.
+- If the elevation data goes away, terrain analyses now wait for it to come back instead of closing. Each analysis card shows which elevation data it uses.
+- The **Basemap** picker has an **Open PMTiles…** button for opening a PMTiles archive from your device.
+
+### Fixes
+
+- Notifications now follow dark mode. Previously their description text was dark grey on a dark background, which was hard to read.
+
 ## 1.19.0 - 2026-10-19
 
 ### New
