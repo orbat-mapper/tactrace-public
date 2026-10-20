@@ -3,11 +3,30 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.19.4 - 2026-10-20
+
+### Improvements
+
+- The **Analysis Deck** has a **Snap area** button when the item has a viewshed. It sets how far from the pointer a dragged observer looks for high or low ground.
+- The **Analysis** tab has an **Options** menu beside **Collapse all**, with **Smooth analysis edges** and **Viewshed snap area**. Previously these were only in **Settings › Terrain**.
+- Labels on ground-scaled graphics now keep shrinking as you zoom out, then fade out and hide, instead of stopping at a minimum size and spilling outside their area.
+- Area labels on screen-scaled control measures now shrink to fit inside their area as you zoom out, then fade out.
+
+### Fixes
+
+- With **Optimize map detail** on, labels in an image export now match their size on the map. Previously labels came out smaller than on screen.
+- The OBJ HOVER and ASLT POS labels in the **FM 3-90 Tactics** demo now fit inside their areas.
+
+### Under the hood
+
+- Updated the tactical graphics engine to 0.18.
+
 ## 1.19.3 - 2026-10-20
 
 ### Improvements
 
 - Type an exact size into the **Size** field above the size slider, in the unit shown (**m** or **px**). Typed sizes can go past the slider's 96 px, up to 512 px. The field also appears for other size sliders, such as a control measure's radius.
+
 ## 1.19.2 - 2026-10-20
 
 ### Fixes
