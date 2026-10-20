@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.19.2 - 2026-10-20
+
+### Fixes
+
+- Switching a symbol's size from **m** to **px** now takes effect right away. Previously the symbol kept shrinking as you zoomed out, and resizing it with its transform box didn't change the symbol, until you switched page and back.
+
 ## 1.19.1 - 2026-10-19
 
 ### Improvements
