@@ -3,6 +3,11 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.19.3 - 2026-10-20
+
+### Improvements
+
+- Type an exact size into the **Size** field above the size slider, in the unit shown (**m** or **px**). Typed sizes can go past the slider's 96 px, up to 512 px. The field also appears for other size sliders, such as a control measure's radius.
 ## 1.19.2 - 2026-10-20
 
 ### Fixes
