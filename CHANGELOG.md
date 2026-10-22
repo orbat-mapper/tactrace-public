@@ -3,6 +3,16 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.20.1 - 2026-10-22
+
+### Improvements
+
+- The **Tracked** profile in **Slope mobility** now marks slopes above 45% NO-GO, matching the severely restricted class for mechanized and armored forces in ATP 2-01.3 (Table B-2). Previously it used 60%. Maps saved with the old threshold keep it.
+
+### Fixes
+
+- A control measure dragged onto the map from **Graphics** or **Favorites** now shows its label at the normal size. Previously the label was too small to see until you resized the graphic, and the next one of that kind you drew had the same tiny label.
+
 ## 1.20.0 - 2026-10-22
 
 ### Improvements
