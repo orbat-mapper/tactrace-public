@@ -3,6 +3,16 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.21.0 - 2026-10-22
+
+### New
+
+- **Sightlines**: a terrain analysis on a point symbol that draws a line to every other symbol on the map within its reach, green where the ground leaves it clear and red where it blocks it, with an × on the crest that masks it. The analysis card lists each target with its distance and its clearance: how far above or below the sight line it stands. Set the observer and target heights, the reach, and which standard identities (and point control measures) it looks for. Lines follow the symbols as you drag them, a dragged observer can snap to the highest or lowest ground near the pointer as a viewshed's does, and hovering a target in the card outlines it on the map. The settings are saved with the map.
+
+### Improvements
+
+- An analysis's settings in the **Analysis** tab now open right beside its card. Previously they could open past the **Details Panel**, far from the card.
+
 ## 1.20.1 - 2026-10-22
 
 ### Improvements
