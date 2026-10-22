@@ -3,6 +3,26 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.20.0 - 2026-10-22
+
+### Improvements
+
+- Control measures with labels now have a **Label size** control in the **Details Panel**, in batch edit and in the mobile **Appearance** popover.
+- Selecting an item that the opening **Details Panel** would cover now pans the map, without zooming, until the item is clear of the panel.
+- The **Details Panel** for a multi-selection leaves more room for its settings. Its bottom row is now a single row: Duplicate, Delete, Lock, Hide, **Reset size**, and a **More actions** menu with **Stacking order**, **Reset offset** and **Reset label positions**. **Opacity** sits with the other appearance settings.
+- The **Details Panel** for a multi-selection no longer repeats "N of M selected" under every setting. A setting shows a small count, such as **6 of 13**, only when it doesn't apply to everything selected; hover it to see why. A switch whose items disagree now rests in the middle instead of looking off, and switches and choice rows mark disagreement with a **Mixed** badge. A slider whose items disagree shows no position until you set one.
+- When a multi-selection mixes symbols, control measures and images, the **Details Panel** has a tab for each kind after **All**. **All** shows only the settings every selected item shares; a kind's tab shows that kind's full settings, and changes there apply to that kind only. The tabs stay in view while you scroll.
+- The **Details Panel** for a single symbol or control measure leaves more room for its settings. Its bottom row is now a single row: Favorite, Duplicate, Delete, Lock, Hide, and a **More actions** menu with **Stacking order**. **Opacity** and **Terrain** now scroll with the other settings.
+- The **Details Panel** for a single symbol or control measure now names its settings as the multi-selection panel does: **Frame visible** and **Fill visible** (in that order), **Symbol fill color**, **Adaptive monochrome**, and **Stroke color** or **Text color**.
+
+### Fixes
+
+- In the **Details Panel** for a multi-selection, each size now shows the unit it is actually in, and its m/px switch changes only that size. Previously a size in meters could show as px, a typed size could apply as meters to some graphics and as pixels to others, and switching one size's unit switched every size. When the selected items use different units for the same size, it gets one row per unit, labelled **(m)** or **(px)**.
+- Hiding a control measure or image from the **Details Panel** now keeps the panel open on it, so you can show it again. Previously the panel closed. The same now holds when you hide every item in a multi-selection: its bottom row stays, and its eye button shows them again.
+- Selecting another item now opens its **Details Panel** settings at the top. Previously they stayed scrolled to where the last item's were.
+- A size slider in the **Details Panel** now always reaches the size it shows. Previously a size in meters could fall outside the slider's range at the current zoom, leaving the handle at one end while the field showed a different value.
+- **Export image** now includes the terrain analyses shown on the map: viewshed, slope mobility, landing sites and landform shading, with their outlines, and the viewshed observer dots and range rings. Previously the exported image left them out.
+
 ## 1.19.4 - 2026-10-20
 
 ### Improvements
