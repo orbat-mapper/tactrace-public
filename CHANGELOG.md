@@ -3,6 +3,21 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.22.0 - 2026-10-23
+
+### New
+
+- **Size by echelon**: a symbol's **Size source** can now be **By echelon** instead of **Custom**, so it takes its size from the map's table of echelon sizes, from Team at 18 px up to Command at 60 px, and follows that table when its echelon or the table changes. Switch it with the **Custom | By echelon** toggle above the size control in the **Details Panel** and in batch edit. The **Echelon sizes** dialog, opened from **Settings**, the **Details Panel** or batch edit, edits each echelon's size in px or as a ratio, shows the sizes side by side at true size, sets the smallest size any echelon gets, and can make new placed and imported symbols start By echelon. The table is saved with the map, and a change to it is one undo step.
+
+### Improvements
+
+- **Reset size** now resets By echelon symbols to their echelon's size, so a set of units selected together come out at one scale, and it also works on a single selected symbol. A menu beside it resets at a map scale from 1:10,000 to 1:250,000 instead of the current view, so symbols sized in different sessions match and print at their table size at that scale. For a ground-scaled By echelon symbol, the **Details Panel** shows the size it draws at now, its full size, and the map scale it is full size at; batch edit says when the selected symbols are full size at different scales.
+- **Reset size** and **Reset offset** now have their own icons instead of sharing one.
+
+### Fixes
+
+- The **m**/**px** switch beside a size in the **Details Panel** now clearly shows which unit is on in dark mode. Previously the selected unit was barely darker than the other.
+
 ## 1.21.0 - 2026-10-22
 
 ### New
