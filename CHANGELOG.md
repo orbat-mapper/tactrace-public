@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.22.1 - 2026-10-23
+
+### Improvements
+
+- When a multi-selection mixes units, point control measures, control measures, images or annotations, the **Details Panel** has an **Includes** row with a chip for each, showing a sample symbol and how many are selected. Switch a chip off to take those items out of the selection, so Delete, Duplicate, Lock, Hide, the other commands in the panel's bottom row, and dragging the group leave them alone; switch it back on to select the same items again. Changing the selection any other way forgets the excluded items.
+
 ## 1.22.0 - 2026-10-23
 
 ### New
