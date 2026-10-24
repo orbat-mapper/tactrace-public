@@ -3,6 +3,20 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.22.2 - 2026-10-24
+
+### Improvements
+
+- **New Map** now starts at the center and zoom of the last Map you worked in on this device, including from the start page. Exploring the Demo does not change it, and the first time you open TacTrace it still starts at the default view. A **New Page** starts at the current view.
+- **Pin settings** has a **Size by echelon** switch. With it on, **Symbol size** is the size of a Battalion pin, and each By echelon symbol's pin is drawn at its echelon's ratio of that from the map's **Echelon sizes** table; Custom symbols keep the shared pin size. Image exports draw the same sizes.
+- The **Echelon sizes** dialog has a **Symbols on this Page** section with a button that switches every unlocked symbol still at a Custom size to By echelon in one undoable step, without selecting them first.
+- When a multi-selection mixes kinds of items, the **All** tab in batch edit ends with links to each kind's own tab, where settings such as **Size source** are.
+
+### Fixes
+
+- **Slope mobility**, **Landing sites** and **Landforms** are now offered for every area control measure, including those drawn only as lines, such as battle positions, strong points, Contain, Retain, Occupy, Secure, area and mobile defense, UXO areas and search areas. They cover the ground the graphic covers, not its teeth, arrows or other decoration.
+- **Sightlines** are drawn under units shown as pins, so a line no longer crosses out the pin it ends at.
+
 ## 1.22.1 - 2026-10-23
 
 ### Improvements
