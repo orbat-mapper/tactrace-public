@@ -3,6 +3,16 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.24.0 - 2026-10-29
+
+### New
+
+- **Export as ORBAT Mapper scenario…** in the File menu and command palette saves the current Page as an ORBAT Mapper scenario file, or copies it to the clipboard for ORBAT Mapper's **Paste from clipboard**. Each ORBAT becomes a side, with its units placed where their Linked Symbols stand and their overrides kept; a unit's other symbols come along as point symbols. Choose the start time, time zone, ORBATs and Layers to include, whether to leave out hidden content, and whether symbols not linked to a Unit become units of the side of their identity. Each Layer becomes an overlay of control measures and shapes, and importing the file back into TacTrace offers to reuse the ORBATs the Map already holds.
+
+### Fixes
+
+- Units imported from an ORBAT Mapper scenario now keep their rotation. Previously a rotated unit came in turned the wrong amount.
+
 ## 1.23.0 - 2026-10-29
 
 ### New
