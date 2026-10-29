@@ -3,6 +3,37 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.23.0 - 2026-10-29
+
+### New
+
+- **ORBATs**: keep orders of battle in the Map and place their units as symbols. The new **ORBAT** tab in the Workspace Sidebar creates ORBATs and shows each as a tree of Groups and Units that you can reorder by drag and drop and edit on a Unit's own page: name, short name, symbol, labels, reinforced/reduced status and fill color. On a phone the ORBAT opens as a drawer from **More tools** in the toolbar. Its **This Page** / **Whole Map** toggle shows the ORBATs this Page uses or every ORBAT in the Map.
+- Drag a Unit from the ORBAT tab onto the map to place a Linked Symbol whose symbol code, name, designation and labels follow the Unit as you edit it. **Place with subordinates** places a Unit together with the Units under it, and **Fit to unit** zooms to where a Unit is placed. A Unit may be placed any number of times, on any Page.
+- A Linked Symbol's **Details Panel** shows its Unit as a card with **Edit in ORBAT**, which opens the Unit's page in the ORBAT tab or drawer, and **Detach**, which removes the link and keeps exactly what the symbol shows. Selecting a Linked Symbol reveals and highlights its Unit in the ORBAT tab. A Unit is edited only in the ORBAT, and its labels in the **Text amplifiers** dialog.
+- A Linked Symbol can override its Unit's status, task force and fill color in the **Overrides** block under the card, which adds one from **Override…** and shows each with the Unit's value and a reset. Its T, M, F, T2, G and H labels are overridden in the **Text amplifiers** dialog, each marked while it follows the Unit, with **Revert to unit** and **Revert all to unit**; an empty label override shows no label. Batch edit sets the same overrides across a selection.
+- A Linked Symbol takes its Unit's fill color, else its Group's, else its ORBAT's, and the tree draws each Unit in that color.
+- Drag a Unit or Group into another ORBAT to move it there, and its Linked Symbols on every Page follow. Drag plain symbols from the Details Panel onto an ORBAT to turn each into a new Unit, or onto the empty ORBAT tab to start a new ORBAT from them. A symbol without a designation stays without one once linked; turn on **No designation on symbols** on a Unit's page to keep any Unit's symbols unlabelled, as ORBAT Mapper does with an empty unique designation.
+- On a phone or tablet, where there is no drag and drop, **Add to ORBAT…** in the Details Panel, the map's right-click menu and **More actions** makes the selected plain symbols wait in the ORBAT tab; tap a row to add them under it, **Add here** on an ORBAT to add them at its root, or the empty tab to start a new ORBAT. A tap on a Unit row only selects it; **Place on map** in the row menu arms it.
+- Drag a Unit onto the map in another TacTrace window to place it there, linked when that Map holds the same ORBAT and unlinked otherwise. Drag a Unit or Group onto another window's ORBAT tab to copy it there with everything below it.
+- The ORBAT tree's menus **Duplicate** a Unit, alone or with its subordinates, or a Group, and **Expand all** / **Collapse all** a branch or a whole ORBAT. Ctrl/Cmd-click and Shift-click select several rows to duplicate, delete, copy or drag together, Ctrl/Cmd-drag copies rows instead of moving them, and **Copy** / **Paste** (or Ctrl/Cmd+C/V) copy Units and Groups between ORBATs and windows. Dropping several selected Units on the map stacks them at the drop point.
+- **Export…** in an ORBAT's menu saves it to its own file, **Export…** in the ORBAT tab's menu saves every ORBAT on show into one file, and **Import ORBAT file…** loads one into the Map, offering to reuse an ORBAT the Map already holds. Pick another Map's `.tactrace` file there to bring in every ORBAT it holds, without opening that Map. ORBAT Mapper scenario import brings in each side as an ORBAT with its groups, colors and labels: choose **ORBAT with Linked Symbols** to place its units too, or **ORBAT only**.
+- **Import Data…** and dropping a file on the map also read an ORBAT exported from Battle Staff Tools (Spatial Illusions), including the ORBATs its Odin and SitaWare converters produce. It becomes a new ORBAT with the file's hierarchy, designations, labels, reinforced/reduced status and fill colors, and a stacked unit becomes that many Units.
+- Deleting a Page that uses ORBATs asks what to do with them. Deleting a Unit, or removing an ORBAT from a Page, detaches its Linked Symbols instead of deleting them. ORBAT edits are undoable, and Linked Symbols survive copy and paste.
+- **Highlight**: point the reader at a symbol, an axis of advance or an objective area, such as the main effort, in a fixed orange. It looks the same on every device and basemap and fades with the graphic's opacity.
+- A highlighted symbol gets an orange glow around it, which takes the place of its Halo. Its labels keep their usual outline.
+- A highlighted control measure or generic graphic gets a wider orange line beneath its stroke with a soft orange glow around it. An area is traced along its outline only, so its fill is unchanged, and a graphic with a transparent stroke is still traced.
+- Turn Highlight on with the **Highlight** switch in the **Details Panel** (and in Quick Properties for symbols), the **Highlight** item in the map's right-click menu, or across a selection in batch edit.
+- Highlights are saved in the Map. Favorites and Recents don't capture them, and a symbol linked to an ORBAT unit keeps its own.
+- PNG, map-sheet PDF and KMZ exports draw Highlights. In map-sheet PDF and KMZ exports a symbol's glow is a little tighter than on the map.
+
+### Improvements
+
+- The **Includes** row in batch edit also has a chip for each Standard Identity in the selection, such as Friend or Hostile, so you can take, say, every hostile item out of the selection. Identity and kind chips combine, and the kind chips now show monochrome samples.
+- Selecting several items now pans the map so they all clear the **Details Panel**, as a single selection already did.
+- Halos are now a setting on this device instead of a switch on each symbol. **Settings → Halo** offers **Off**, **On** and **Auto**, the default, which draws a Halo on every symbol on dark and satellite basemaps and none on light or blank ones. The **Hard** and **Soft** styles are in the same menu. The Halo switch is gone from the Details Panel, Quick Properties and batch edit; older Maps with Halos switched on open as before, and the per-symbol Halo is no longer saved.
+- A **Soft** Halo style draws a blurred glow around each symbol instead of the crisp **Hard** outline, with settings for its blur, spread, opacity, edge and color, and a thin outline of its own for labels.
+- PNG and map-sheet PDF exports draw Halos as the map shows them. KMZ exports always draw Halos, so their **Add halos to all symbols** option is gone.
+
 ## 1.22.2 - 2026-10-24
 
 ### Improvements
