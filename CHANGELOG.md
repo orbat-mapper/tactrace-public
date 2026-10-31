@@ -3,6 +3,22 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.25.0 - 2026-10-31
+
+### New
+
+- **Single envelopment** demo: a new FM 3-90 example on the start page, showing a force attacking along one flank of an enemy force.
+
+### Improvements
+
+- **Export as ORBAT Mapper scenario…** has more control over units, now grouped under **Units**: turn off **Export units** to export only control measures and shapes, turn off **Rotate units** to keep every unit upright, and turn off **Label units without T** so units made from symbols without a designation show no label in ORBAT Mapper, as on the map.
+- **Copy to clipboard** in the ORBAT Mapper export keeps the dialog open, so you can copy again with other choices or also save the file.
+- A globe button next to the compass switches between the flat map and the globe view.
+
+### Under the hood
+
+- Updated MapLibre GL JS to 6.16.
+
 ## 1.24.0 - 2026-10-29
 
 ### New
