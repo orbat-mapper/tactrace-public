@@ -3,6 +3,20 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.26.0 - 2026-11-01
+
+### New
+
+- **Area defense** demo: a new FM 3-90 example on the start page, showing a defending force organized into a forward security area, a main battle area and a support area.
+
+### Improvements
+
+- **Paste here** on a copied Layer now centers the new Layer on the point you right-clicked, as dropping a Layer on the map does. Ordinary Paste and paste at the view center still keep the Layer exactly where it was.
+
+### Fixes
+
+- Point symbols in image exports are drawn where they stand on the map. Previously they were shifted toward their top.
+
 ## 1.25.0 - 2026-10-31
 
 ### New
