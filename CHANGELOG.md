@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.27.1 - 2026-11-03
+
+### Fixes
+
+- PDF, SVG and KMZ exports draw a symbol's **Unit count** as a stack of frames. Previously every symbol exported as a single unit.
+
 ## 1.27.0 - 2026-11-03
 
 ### New
