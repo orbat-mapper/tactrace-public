@@ -3,6 +3,16 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.27.0 - 2026-11-03
+
+### New
+
+- **Unit count**: a symbol can portray up to 6 units, drawn as a stack of frames. Set it in the **Details Panel**, Quick Properties, the symbol library or batch edit.
+
+### Improvements
+
+- The **Graphics** tab lists Attack by Fire and Support by Fire under Mission Tasks too, and sorts each section alphabetically.
+
 ## 1.26.0 - 2026-11-01
 
 ### New
