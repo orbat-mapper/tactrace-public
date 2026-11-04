@@ -3,6 +3,27 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.28.0 - 2026-11-04
+
+### New
+
+- **Flow Arrow**: a solid Generic Graphic arrow whose body splits into flows, each ending in its own arrowhead, and flows can merge again. Ctrl/⌘ + drag from a point pulls out a new flow; drop its tip on another flow to merge them. On touch, turn on **Add flow** first; it switches off after each flow.
+- The **Details Panel**'s **Flow** section picks a flow and sets its own arrowhead, width and arrowhead size, with **Reverse**, **Detach tip**, **Clear point widths** and **Remove flow**. Width grips shape each flow point by point.
+- **Double-headed arrows**: a Classic Arrow's **Tail arrowhead style** draws a head at its tail too. The tail head matches the tip's size until you resize it with its own handle; Alt+click that handle to match the tip again.
+- Six new Classic Arrow head styles for marking distances and extents: **Stop**, **Bar**, **Slash**, **Dot**, **Origin** and **Hollow**.
+
+### Improvements
+
+- Arrowhead style pickers show a small drawing of each style.
+- Dragging the T label of a Line or Classic Arrow onto its line opens a gap in the line under the text. **Label padding**, under Advanced, widens the gap.
+- Gaps cut for labels shrink with the label as you zoom out and close once it hides.
+- Smooth Block Arrows place their curve points where the bends are, so long, sweeping bends stay round and nearly straight stretches use fewer points.
+- Ctrl + drag on a point of the graphic you're editing now acts on that point (on a Flow Arrow it pulls out a new flow) instead of starting a box selection.
+
+### Under the hood
+
+- Updated the tactical graphics engine to 0.24.
+
 ## 1.27.1 - 2026-11-03
 
 ### Fixes
