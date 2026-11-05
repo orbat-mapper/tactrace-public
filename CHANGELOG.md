@@ -3,6 +3,27 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.29.0 - 2026-11-05
+
+### New
+
+- **Minard's Russian campaign** example: a redrawing of Charles Minard's 1869 flow map of the French army's losses in Russia, 1812–1813, with Flow Arrows for the advance and retreat and the temperatures on the retreat below.
+
+### Improvements
+
+- Block Arrows and Flow Arrows keep the size set by your first two clicks as you add points. Previously each new point made the whole arrow wider.
+- A newly drawn Block Arrow gets standard arrowhead proportions: its shaft is a third as wide as the head instead of a twelfth.
+- A Flow Arrow is drawn tip first, like the other arrows.
+- The start page shows its actions above the examples.
+
+### Fixes
+
+- A Map File that uses a legacy 20-digit SIDC now opens, with the symbol upgraded to its Edition E form as imports already do. Previously the file was refused.
+
+### Under the hood
+
+- Updated the tactical graphics engine to 0.25.
+
 ## 1.28.0 - 2026-11-04
 
 ### New
