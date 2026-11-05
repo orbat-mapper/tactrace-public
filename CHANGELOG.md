@@ -3,6 +3,30 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.30.0 - 2026-11-05
+
+### New
+
+- **Split Arrow**: a line arrow, like the Classic Arrow, whose shaft splits into flows that can merge again, each free tip ending in its own arrowhead. Ctrl/⌘ + drag from a point pulls out a new flow; drop its tip on another flow to merge them. On touch, turn on **Add flow** first.
+- The **Details Panel**'s **Flow** section for a Split Arrow labels each flow, places its label, and sets its own arrowhead style and size, with **Reverse**, **Detach tip**, **Remove flow**, and resets back to automatic label placement or the arrow's head size. Ctrl/⌘ + drag an arrowhead's grip to size every head at once.
+
+### Improvements
+
+- Lines, Arrows and Split Arrows can put their label above, on or below the line. Lines and Arrows can also slide the label along the line, under **Advanced**.
+- Arrowheads on a dashed Arrow stay solid; only the shaft is dashed.
+- Generic Graphics have a **Line pattern**: Solid, Dashed, Long dash, Dotted or Dash-dot, in the **Details Panel** and when editing several at once. A Generic Graphic saved as Planned opens with the Dashed pattern.
+- A **Text halo** switch for control measures draws a contrasting halo behind their labels so they stay readable over busy basemaps, in the **Details Panel** and when editing several at once.
+- The basemap picker has a **Basemap opacity** slider and a **Fade toward** color that dim the basemap without dimming anything you've drawn. Image exports keep the fade.
+- The basemap picker stays open after you choose a basemap, so you can compare them.
+
+### Fixes
+
+- Alt+clicking a point on a line or arrow to delete it keeps the graphic in edit. Previously, on a thin line the graphic was often deselected as well.
+
+### Under the hood
+
+- Updated the tactical graphics engine to 0.27.
+
 ## 1.29.0 - 2026-11-05
 
 ### New
