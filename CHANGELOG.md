@@ -3,6 +3,22 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.31.0 - 2026-11-06
+
+### New
+
+- **Campaign in the West, 1940** example: a recreation of the West Point atlas map of the opposing dispositions and the German and Allied plans for the Battle of Flanders, May 1940. It opens on the German plan.
+- **Select all in layer** selects every selectable Item in a layer, from a button on the layer row in the **Layers** panel or from the row's menu.
+
+### Improvements
+
+- The example gallery loads faster: its thumbnails are a fraction of their former size.
+- The standalone download is smaller. The historical examples (Napoleon's Russian campaign and Campaign in the West, 1940) are now only in the web app.
+
+### Fixes
+
+- Ctrl/⌘ + C with text selected on the page, such as a label or a value, copies that text. Previously it copied the selected Items instead.
+
 ## 1.30.0 - 2026-11-05
 
 ### New
