@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.32.0 - 2026-11-06
+
+### New
+
+- **Atlas** basemap in the style of military history atlas plates: elevation tints, pale cyan water, light grey borders and letter-spaced country names, plus state borders and names in the United States. Elevation gains detail as you zoom in. Choose it from the basemap picker, then pick where the tints start under **Elevation bands** (on a phone, under **Settings › Basemap**): **Lowland** (200, 400 and 800 m) for low ground such as Northwest Europe, **Upland** (500, 1,000 and 1,500 m) for mountainous ground such as North Africa, **Highland** (1,500, 2,000 and 2,500 m) for high plateaus such as the American Southwest, or **Alpine** (100, 200, 500, 1,000 and 2,000 m), a five-band scale for the Alps and the Italian front.
+
 ## 1.31.0 - 2026-11-06
 
 ### New
