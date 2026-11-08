@@ -3,6 +3,19 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.33.0 - 2026-11-08
+
+### New
+
+- **Battle of Antietam** example: a new map in the example gallery on the start page, showing Sharpsburg and vicinity at dawn on 17 September 1862.
+
+### Improvements
+
+- **Flow** and **Split Arrows** can edit several flows at once: Shift or Ctrl/⌘-click flow buttons, Shift-click flows on the map, or press **All**. A settings change or grip drag applies to every selected flow that has that field, as one undo step, and fields that differ read **Mixed**. Flow fields now sit last in the Details Panel under a heading that names what they edit, and the whole-arrow fields that share a name with them say **Default** or **Trunk**. Pressed choices such as flow buttons, Fill, Line pattern, Stroke width and Status are easier to see.
+- The **Atlas** basemap can leave out borders, cities, all labels or only some kinds of label, such as country names. The elevation bands and these choices now sit under **Atlas options** in the basemap picker, which keeps the picker smaller; on a phone they are under **Settings › Atlas options**.
+- The **Atlas** basemap now starts with the five-band **Alpine** elevation bands. A choice you already made is kept.
+- Self-hosted installations can point the **Atlas** basemap at their own vector tiles, fonts and elevation data, including PMTiles archives, with a `sourceType: "atlas"` entry in the map configuration. Atlas now tints the elevation data configured for terrain.
+
 ## 1.32.0 - 2026-11-06
 
 ### New
