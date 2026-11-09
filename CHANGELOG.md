@@ -3,6 +3,18 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.34.0 - 2026-11-09
+
+### New
+
+- **Supply routes**: Main Supply Route (MSR), Alternate Supply Route (ASR) and Traffic Route, with optional traffic arrows.
+
+### Fixes
+
+- Labels at a line's ends or along it, such as Light Line's "LL" and Phase Line's "PL", stay beside the line when you zoom. A label you dragged earlier may shift by about half a line of text.
+- A **Flow Arrow**'s Main Attack head no longer draws a stray line across a curved or bending shaft.
+- The **Elevation Profile** of a **Split** or **Flow Arrow** shows every flow, not just the trunk.
+
 ## 1.33.0 - 2026-11-08
 
 ### New
