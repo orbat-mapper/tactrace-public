@@ -3,6 +3,24 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.35.0 - 2026-11-11
+
+### New
+
+- **Line of Contact**: a new control measure, drawn with hostile color by default.
+- **Reverse direction**: a new item in the Details Panel's Editing row and the mobile toolbar's menu that runs a control measure the other way, as one undo step. It shows whenever the measure can be reversed.
+
+### Improvements
+
+- Map text on control measures is set in Noto Sans Medium, which reads more clearly over a basemap.
+- On a desktop, the start page for returning visitors widens so the examples sit two abreast with larger thumbnails beside your maps. Long source citations are shortened to two lines, with the full text on hover.
+- The example gallery shows three columns on wide screens, and cards side by side end at the same height. Example cards on the start page also match in height within each row.
+- The example gallery now opens with the 1940 Campaign in the West and Battle of Antietam maps, and the example thumbnails are sharper and show the terrain.
+
+### Fixes
+
+- Control-measure options you haven't set show what the map draws. Previously they read as off, the first choice or the minimum, so the Line of Contact's Hostile color showed off while it drew red.
+
 ## 1.34.0 - 2026-11-09
 
 ### New
