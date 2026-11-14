@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.37.1 - 2026-11-14
+
+### Improvements
+
+- **ORBAT** rows now find their Units on the map: selecting a row (a click, Enter, Ctrl- or Shift-click) selects its Unit's symbols on the current Page, and hovering a row outlines them. Rows with nothing on the Page leave the map's selection alone, and the view never moves.
+
 ## 1.37.0 - 2026-11-14
 
 ### New
