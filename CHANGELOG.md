@@ -3,6 +3,21 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.37.0 - 2026-11-14
+
+### New
+
+- **Page Basemap**: a Page can save its own basemap with the Map: the base style, overlays, opacity, fade colour and the Atlas options. In the basemap picker (on a phone, **Settings › Basemap**), **Save with this page** keeps it, **Remove from page** drops it, and **Use on all pages** applies it to every Page as one undo step. A basemap picked on such a Page shows only there until you choose **Save to page** or **Back to saved**, so readers see the author's choice, and your own basemap is never changed. Parts your device lacks fall back with a notice while the saved basemap is kept. The examples now open with their own basemaps.
+- **Atlas** now names villages and hamlets as you zoom in, so a battle-scale plate shows the places fought over instead of a blank map. **Smallest place** under Atlas options chooses how small a place is named: **Hamlets**, **Villages** or **Towns**. Stopping at villages keeps off the present-day housing estates that the map data counts as hamlets. The choice is saved with a Page that saves its basemap.
+
+### Improvements
+
+- **Use this size for new symbols** in a selected symbol's Details Panel makes new symbols match its size at every zoom: its screen size for a screen symbol, its ground size and anchor for a ground symbol. It is unavailable while the Map sizes new symbols by echelon.
+- **Atlas** elevation bands gain **None**, which leaves the elevation tints off and skips downloading them.
+- **Atlas** country and state names are darker, sit on a soft halo so borders and rivers no longer cut through them, and now win over town names where they collide, so they no longer disappear from the map.
+- **Atlas** coasts and rivers are drawn in a softer, thinner blue, so borders read above them; river names no longer leave a cyan smudge on the land, and island names grow as you zoom in.
+- **Atlas** place dots now come and go with their names, so the map no longer shows unnamed dots, and towns are named at every zoom instead of thinning out past zoom 8.
+
 ## 1.36.0 - 2026-11-14
 
 ### New
