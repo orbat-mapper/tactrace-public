@@ -3,6 +3,23 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.36.0 - 2026-11-14
+
+### New
+
+- **Notes**: framed boxes of formatted text pinned to the map, for title blocks, callouts and labels. Add one from the annotation tools, then write its content in Markdown (headings, paragraphs and lists) and pick a frame from previews, including atlas-style title, friendly and enemy frames, solid or dashed. A plain Note takes any colour, one alignment and a Regular, Italic, Light or Caps style. Notes have their own width, scale and rotation, scale with the ground as you zoom, can be edited several at a time, and appear in every export. A Map with Notes can't be opened in earlier versions of TacTrace.
+- **World War II Asia-Pacific** example: two West Point atlas plates in the example gallery, each with its own card and source link: the Japanese offensive into Southeast Asia in December 1941, and the final operations on Luzon from February to July 1945.
+- **Rivers** and **Lakes & reservoirs** under Atlas options' Show leave present-day inland water off the plate, for a river that has since moved its course or a reservoir dammed after the period mapped. Hiding rivers also hides their names. The map data doesn't tell natural lakes from reservoirs, so large lakes such as the Great Lakes and the Dead Sea go too, while the sea (the Caspian included) always stays. Elevation tints still come from present-day terrain.
+
+### Improvements
+
+- **Reverse direction** now works on a multi-selection: every selected control measure with a direction runs the other way, as one undo step, while those without one, such as circles, are left as they are. It sits in the Details Panel's footer beside Reset size and in the mobile toolbar's menu, and the new **R** shortcut runs it for the measure being edited or the whole selection.
+- The **Measurement** shortcut moves from **R** to **M**, so **R** can reverse direction.
+- **Fit to Selection** (Shift+3, also in the View menu, the command palette and beside the filters of a multi-selection's Details Panel) zooms and pans to whatever is selected, beside Fit to Items, which frames everything visible.
+- A multi-selection can now be narrowed by **status** and by **echelon** as well as by kind and identity. In the Details Panel, switch off Planned, or Battalion/Squadron, to drop those items from the selection, and switch the chip back on to add them again. Control measures count by their own status and echelon.
+- Opening a Map last edited in a newer version of TacTrace now leaves out only the Items this version doesn't know and tells you how many were left out, instead of failing to open. A Draft holding such Items isn't opened, so they can't be lost by saving over them.
+- The **Campaign in the West, 1940** example's title block is now a Note, and the **FM 3-90 Tactics** single envelopment draws its lines of contact as Line of Contact graphics.
+
 ## 1.35.0 - 2026-11-11
 
 ### New
