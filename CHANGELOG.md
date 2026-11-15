@@ -3,6 +3,20 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.39.0 - 2026-11-15
+
+### New
+
+- **Symbol line color**: draw a symbol's frame, icon, echelon and labels in one color of your own, such as red or blue ink on a white fill as on many historical maps. Set it in the Details Panel, the symbol's quick properties, the symbol library, or across a selection with Batch Edit. Like fill color, the line color you last chose is used for the next symbols you place. The fill keeps its own color, and every export draws the line color.
+
+### Improvements
+
+- The **World War II Asia-Pacific** example draws its units as the West Point plates do: Japanese units in red and Allied and American units in blue, on a white fill. On the Luzon map, the Shobu, Kembu and Shimbu Groups now carry their names inside their frames.
+
+### Fixes
+
+- Unit symbols no longer go missing after a map loads or its basemap changes. Ground-sized symbols, such as those on the World War II Asia-Pacific example, could stay blank until you zoomed.
+
 ## 1.38.0 - 2026-11-15
 
 ### New
