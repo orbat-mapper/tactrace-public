@@ -3,6 +3,21 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.38.0 - 2026-11-15
+
+### New
+
+- **Operation Barbarossa, 1941** example: a redrawn plate in the example gallery with the three army groups' main attacks as Flow Arrows, the encircled Soviet pockets, the ground taken by the end of September, and the German and Romanian armies and panzer groups in their 22 June positions.
+
+### Improvements
+
+- Snapping now lines up a Note's or an image's edges, not just its centre. Moving one snaps whichever corner or edge comes near a grid line or intersection, a corner scale snaps the dragged corner while the opposite one stays put, and a Note's width grip snaps the dragged edge.
+- A moved control measure snaps by whichever of its points comes near a target, not just its first, and a multi-selection snaps by the corners and centre of its box as it moves.
+
+### Fixes
+
+- SVG and PDF exports now include filled shapes with holes, and lines that run partly outside the frame. Previously such shapes could be missing from the export.
+
 ## 1.37.1 - 2026-11-14
 
 ### Improvements
