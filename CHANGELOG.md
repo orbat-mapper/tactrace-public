@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.40.0 - 2026-11-16
+
+### New
+
+- **Graphic Groups**: group items in one Layer with **Ctrl+G** (**Cmd+G** on Mac) to select, move, scale and rotate them as one; **Ctrl+Shift+G** ungroups. Double-click a member (double-tap on touch) to select it alone. In the Layers Panel each group is a row you can rename, hide, lock and drag, and groups are saved with the Map.
+
 ## 1.39.0 - 2026-11-15
 
 ### New
