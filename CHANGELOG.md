@@ -3,6 +3,13 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.41.0 - 2026-11-18
+
+### New
+
+- **Align and arrange**: align, distribute, tidy up or lay out a selection in a row, column or grid, from the **Details Panel** or the right-click **Align** menu. Unit symbols line up by their frames.
+- **Railroads on Atlas**: turn them on under Atlas options › **Show** › **Railroads**. They are off by default.
+
 ## 1.40.0 - 2026-11-16
 
 ### New
