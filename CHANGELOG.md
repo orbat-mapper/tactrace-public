@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.42.2 - 2026-11-22
+
+### Fixes
+
+- The Bracket of a ground-sized Collocation no longer flashes large for a moment after you zoom quickly.
+
 ## 1.42.1 - 2026-11-22
 
 ### Improvements
