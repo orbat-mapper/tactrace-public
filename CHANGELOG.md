@@ -3,6 +3,21 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.42.0 - 2026-11-22
+
+### New
+
+- **Collocations**: show two or more unit symbols that share a location as one portrayal, with HQs together on a Staff and the other units in a Bracket. Collocate a selection with **Collocate** in the **Details Panel** or by Alt-dragging it (Option-drag on Mac), and undo it with **Dissolve**. Drag members to rearrange them or to move them between the Staff and the Bracket, drop symbols in to add them, and drag the Bracket to resize it. The **Details Panel** sets the Collocation's size, arrangement, Bracket shape, leaders and other options, and the settings you last chose are used for the next one. Click a Collocation to select it whole and double-click a member to select it alone. In the **Layers Panel** each Collocation has its own row, which you can rename, hide, lock, drag, zoom to and dissolve. Collocations are kept through duplicate, paste and exports, and are saved with the Map.
+- **PMTiles layers**: once a PMTiles archive is open, the basemap picker lists your archives, so you can show or hide each, set the opacity of imagery, reorder them, zoom to their coverage and remove them. The map follows an opacity slider as you drag it.
+
+### Improvements
+
+- Ground-sized symbols now shrink to 6 px when you zoom out, instead of stopping at 12 px, so they crowd the map less at small scales.
+
+### Fixes
+
+- On a phone, the lock in the Details drawer's header now locks every selected item, and unlocks them again. Previously it did nothing when more than one item was selected.
+
 ## 1.41.0 - 2026-11-18
 
 ### New
