@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.42.1 - 2026-11-22
+
+### Improvements
+
+- Units in a Collocation now have the same halo as other symbols, following your **Halo** setting and style, so their designations are easy to read on imagery and dark basemaps. The soft glow leaves the spacing of the stack unchanged.
+
 ## 1.42.0 - 2026-11-22
 
 ### New
