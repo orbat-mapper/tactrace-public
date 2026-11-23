@@ -3,6 +3,18 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.43.0 - 2026-11-23
+
+### New
+
+- **Curly Bracket**: a brace that groups everything between its two ends under a pointed tip. Drag the tip to set its depth, or off centre to move it along the span. It is filled with a tapered outline by default, or drawn as a single line, in a **Calligraphic** or **Typeset** style, with settings for thickness, tip length and curvature. Its label sits beyond the tip, along the span or level on screen, aligned left, center or right.
+- **About TacTrace**: a page, linked from the start page header, on who can use TacTrace and what it costs, crediting it, the map data and its providers, printing, where your maps are stored, offline use, bringing in existing data, the licence and feedback, with example maps to open.
+
+### Improvements
+
+- Maps and examples load faster: their graphics are drawn once, on the basemap, instead of twice. Opening a link to a Page or Layer now jumps straight to it rather than animating there while the map loads.
+- Switching basemaps or turning the globe on or off no longer redraws every graphic, and leaves an item you are editing open.
+
 ## 1.42.2 - 2026-11-22
 
 ### Fixes
