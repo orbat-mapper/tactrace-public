@@ -3,6 +3,26 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.44.0 - 2026-11-24
+
+### New
+
+- **Invasion of Sicily, 1943**: a new example in the gallery, redrawn from the West Point atlas: the Allied plan for the landings on 10 July 1943 and the Axis dispositions on the island, with the Allied task forces drawn as Collocations and grouped by Curly Brackets.
+
+### Improvements
+
+- A Curly Bracket's style (Style, Thickness, Tip length, Curvature, and its label's orientation and alignment) is remembered for the next Curly Bracket, whether you set it while drawing, while editing or in a Batch Edit. A Batch Edit of several Curly Brackets now offers these settings too.
+- The color last set on any Generic Graphic starts the next one, whether you set it while drawing, while editing or in a Batch Edit. Previously only a color picked while drawing was remembered.
+
+### Fixes
+
+- A Curly Bracket's **Filled** setting now shows as a switch in the **Details Panel** and quick properties. Previously it was hidden.
+- A filled Curly Bracket can be selected by clicking near its outline. Previously it needed a pixel-exact click.
+
+### Under the hood
+
+- Updated MapLibre GL JS to 6.19.
+
 ## 1.43.0 - 2026-11-23
 
 ### New
