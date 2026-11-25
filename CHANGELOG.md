@@ -3,6 +3,17 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.45.0 - 2026-11-25
+
+### New
+
+- **Naval basemap**: a dark basemap in the style of a green phosphor display, with black land and sea, glowing green coastlines, dashed borders and letter-spaced labels.
+- **GIUK gap ASW plot, 1985**: a new example in the gallery, drawn on the Naval basemap: a notional Cold War anti-submarine plot of NATO barriers and maritime patrol across the Greenland–Iceland–UK gap, with Northern Fleet submarines and a surface action group heading for the Atlantic.
+
+### Fixes
+
+- Maps show their graphics within a second even when the basemap is slow to load. Previously the map stayed empty until the basemap arrived.
+
 ## 1.44.0 - 2026-11-24
 
 ### New
