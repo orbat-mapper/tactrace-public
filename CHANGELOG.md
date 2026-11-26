@@ -3,6 +3,17 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.46.0 - 2026-11-26
+
+### New
+
+- **Naval Amber basemap**: the amber phosphor variant of the Naval basemap, with black land and sea, glowing amber coastlines, dashed borders and letter-spaced labels.
+- **Phosphor map themes**: vector archives in **PMTiles basemaps** can now be drawn in **Phosphor** and **Phosphor amber**, the look of the Naval basemaps, fully offline. Pick them under **Map theme** or from the map's **Map flavor** menu.
+
+### Fixes
+
+- The standalone download opens again. In 1.44.0 and 1.45.0 it showed a blank page.
+
 ## 1.45.0 - 2026-11-25
 
 ### New
