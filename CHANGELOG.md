@@ -3,6 +3,12 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.46.1 - 2026-11-27
+
+### Improvements
+
+- The **Naval** and **Naval Amber** basemaps are now called **Phosphor** and **Phosphor Amber**, like the matching map themes for PMTiles basemaps. Maps and settings that use the old names open on Phosphor.
+
 ## 1.46.0 - 2026-11-26
 
 ### New
