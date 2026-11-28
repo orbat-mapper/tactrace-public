@@ -3,6 +3,17 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.47.0 - 2026-11-28
+
+### New
+
+- **Page Look**: a Page can now save its look beside its basemap: Halos and their style, hillshade and 3D terrain, the Grid's appearance, and whether the map may be rotated and tilted. Open **Save look to page…** from the basemap picker, the Settings menu, the Page menu, the command palette or a control's own menu, tick the parts to keep, and use **Use on all pages** to copy them to every Page in one undoable step. Changing a saved setting shows only on that Page until you pick **Save to page** or **Back to saved**, and never changes your device preferences.
+- **Cold War plots**: the GIUK gap example becomes a two-page demo with a second plot over Phosphor Amber: a notional 1983 intercept plot of the Alaskan NORAD Region, with ground radars, the ADIZ and the DEW Line, an E-3 orbit and F-15 alert pairs meeting Soviet reconnaissance and bomber probes out of Chukotka. The existing link still opens the ASW plot.
+
+### Improvements
+
+- Locking tilt now turns off the tilt gestures instead of flattening the map, so a Page saved with a tilted view keeps it.
+
 ## 1.46.1 - 2026-11-27
 
 ### Improvements
