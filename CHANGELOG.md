@@ -3,6 +3,27 @@
 What changed in each TacTrace release, newest first. Downloads are on the
 [Releases](https://github.com/orbat-mapper/tactrace-public/releases) page.
 
+## 1.48.0 - 2026-11-28
+
+### New
+
+- **Basemap hillshade look**: on Phosphor and Phosphor Amber, and on PMTiles basemaps drawn in either style, hillshade now glows faintly in the basemap's own green or amber over a soft black shadow instead of harsh grey and white. Hillshade follows the basemap's look, marked **Basemap default** in **Hillshade settings**, until you change a setting; **Use basemap look** goes back to it.
+
+### Improvements
+
+- Hillshade's shadow, highlight and accent colors each have their own opacity, so the relief can be lighter without losing its shape.
+- Hillshade now draws beneath the basemap's roads, borders, coastlines and labels, so steep slopes no longer dim them.
+- Labels above or below a Line, Paths, Classic Arrow or Split Arrow stay the same distance from the line at every zoom, instead of sliding while you zoom and jumping into place.
+
+### Fixes
+
+- A basemap that fails to load now shows a notice and keeps your graphics on the map. Previously the map could stay empty.
+- Grid northing labels near the poles now name the correct cell.
+
+### Under the hood
+
+- Updated the drawing engine and the MGRS library.
+
 ## 1.47.0 - 2026-11-28
 
 ### New
